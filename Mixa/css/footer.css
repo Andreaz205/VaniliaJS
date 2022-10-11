@@ -1,0 +1,24 @@
+footer {
+  height: 10vh;
+  width: 100%;
+  background: darkgrey;
+  z-index: 1;
+}
+
+.footer-block {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-block > div > a {
+  margin-right: 25px;
+  color: white;
+}
+
+.footer-title {
+  padding-top: 10px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=footer.css.map */

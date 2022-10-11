@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OnlineLibrary</title>
+    <link rel="stylesheet" href="css/header.css" type="text/css"/>
+    <link rel="stylesheet" href="./css/footer.css" type="text/css"/>
+    <link rel="stylesheet" href="./css/main.css" type="text/css"/>
+    <link rel="stylesheet" href="./css/style.css" type="text/css"/>
+
+    <link href="https://cdn.muicss.com/mui-latest/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.muicss.com/mui-latest/js/mui.min.js"></script>
+</head>
+<body>
+    <div class="main-wrapper">
+        <header>
+
+            <div class="header-photo">
+                <div class="second-slider-container">
+                    <div class="logo-slider-area">
+                        <div class="polotno" id="parent">
+                            <img src="https://i.ibb.co/sVnS9fH/stiven-king-6.jpg" alt="" id="first-img">
+                            <img src="https://i.ibb.co/1fXKvyj/i-7.webp" id="second-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="general-block">
+                <div class="title">BookArena</div>
+                <div class="title-description">Электронная библиотека книг</div>
+                <div class="nav-menu">
+
+                            <a href="#">Книги</a>
+                            <a href="#">Аудиокниги</a>
+                            <a href="#">Списки</a>
+                            <a href="#">Жанры</a>
+                            <a href="#">Серии</a>
+
+                </div>
+                <div class="search-wrapper">
+                    <div class="search">
+                        <input type="text">
+                        <button onclick=""><img src="magnifying-glass-solid.svg" alt=""></button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="authorization-links">
+                <div class="sign-register">
+                    <a href="#">Вход</a> / <a href="#">Регистрация</a>
+                </div>
+                <div class="links">
+                    <a href="#"><img src="vk_icon.png" alt="#"></a>
+                    <a href="#"><img src="Facebook-icon-1.png" alt="#"></a>
+                    <a href="#"><img src="tweeter.png" alt="#"></a>
+                </div>
+            </div>
+
+        </header>
+
+        <main>
+
+            <div class="grid-wrapper">
+
+                <div class="left-area">
+                    <div class="aside">
+
+                        <div class="authors">
+
+                            <h3>Авторы</h3>
+                            <div class="author-card">
+
+                                <div class="author-img-card">
+                                    <img src="" alt="Author image" class="author-img" width="100">
+                                </div>
+
+                                <div class="authors-content"></div>
+                            </div>
+
+                            <div class="author-card">
+
+                                <div class="author-img-card">
+                                    <img src="" alt="Author image" class="author-img " width="100">
+                                </div>
+
+                                <div class="authors-content"></div>
+                            </div>
+
+                            <div class="author-card">
+
+                                <div class="author-img-card">
+                                    <img src="" alt="Author image" class="author-img" width="100">
+                                </div>
+
+                                <div class="authors-content"></div>
+                            </div>
+
+                            <div class="author-card">
+
+                                <div class="author-img-card">
+                                    <img src="" alt="Author image" class="author-img" width="100">
+                                </div>
+
+                                <div class="authors-content"></div>
+                            </div>
+                        </div>
+                        <!--
+                        <div class="book-block">
+                            <h3>Популярные книги</h3>
+                            <div class="book-aside-block"></div>
+                        </div>
+                        -->
+
+                    </div>
+                </div>
+                <div class="right-area">
+
+                    <div style="height: 100px;"></div>
+
+                    <div class="slider-container">
+                        <div class="arrow-left">
+                            <button id="slider-first-arrow-left">
+                                <img src="arrow.png" alt="">
+                            </button>
+                        </div>
+
+                        <div class="slider-area">
+                            <div class="images-ware" style="left: 0">
+                                <div class="slider-card">
+                                    <img src="12cars.jpg" alt=""/>
+                                    <div>12 стульев</div>
+                                </div>
+                                <div class="slider-card">
+                                    <img src="Harry_Potter_and_the_Philosopher's_Stone_—_movie.jpg" alt=""/>
+                                    <div>Гарри Поттер</div>
+                                </div>
+                                <div class="slider-card">
+                                    <img src="jumanji.jpg" alt=""/>
+                                    <div>Джуманджи</div>
+                                </div>
+                                <div class="slider-card">
+                                    <img src="liza.jpg" alt=""/>
+                                    <div>Бедная лиза</div>
+                                </div>
+                                <div class="slider-card">
+                                    <img src="mednivsadnik.jpg" alt=""/>
+                                    <div>Медный всадник</div>
+                                </div>
+                                <div class="slider-card">
+                                    <img src="vlastelin.webp" alt=""/>
+                                    <div>Властелин колец</div>
+                                </div>
+                                <div class="slider-card">
+                                    <img src="warandpeace.webp" alt=""/>
+                                    <div>Война и мир</div>
+                                </div>
+                                <div class="slider-card">
+                                    <img src="вщы.jpg" alt=""/>
+                                    <div>Преступление и наказание</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="arrow-right">
+                            <button id="slider-first-arrow-right">
+                                <img src="arrow.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="data-from-server">
+                        <div class="data">
+                            <h2 style="text-align: center">Добавить книгу</h2>
+                            <form class="mui-form" id="form">
+
+                                <div class="mui-textfield mui-textfield--float-label">
+                                    <input type="text" id="book-title" required minlength="3" maxlength="256">
+                                    <label for="book-title">Введите название</label>
+                                </div>
+
+                                <div class="mui-textfield mui-textfield--float-label">
+                                    <input type="text" id="book-author" required minlength="3" maxlength="256">
+                                    <label for="book-author">Введите автора</label>
+                                </div>
+
+                                <div class="mui-textfield mui-textfield--float-label">
+                                    <input type="text" id="book-author-link" required minlength="3" maxlength="256">
+                                    <label for="book-author">Введите ссылку на изображение автора</label>
+                                </div>
+
+
+
+                                <button
+                                        type="submit"
+                                        id="submit"
+                                        disabled
+                                        class="mui-btn mui-btn--raised mui-btn--primary"
+                                >
+                                    Создать книгу
+                                </button>
+
+                            </form>
+                        </div>
+
+                        <!--                   <div class='btn-area'>
+                                                   <button id="to-server" class="mui-btn mui-btn--raised mui-btn--primary">Показать список книг</button>
+
+                                                   <div id="list"></div>
+                                               </div>
+                       -->
+
+                        <div class="data">
+                            <h2 style="text-align: center">Добавить автора</h2>
+                            <form class="mui-form" id="form-author">
+
+                                <div class="mui-textfield mui-textfield--float-label">
+                                    <input type="text" id="author-title" required minlength="3" maxlength="256">
+                                    <label for="author-title">Введите автора</label>
+                                </div>
+
+                                <div class="mui-textfield mui-textfield--float-label">
+                                    <input type="text" id="author-genres" required minlength="3" maxlength="256">
+                                    <label for="author-genres">Введите жанры</label>
+                                </div>
+
+                                <button
+                                        type="submit"
+                                        id="author-submit"
+                                        disabled
+                                        class="mui-btn mui-btn--raised mui-btn--primary"
+                                >
+                                    Добавить автора
+                                </button>
+
+                            </form>
+                        </div>
+
+                        <div class='btn-area'>
+                            <button id="get-authors" class="mui-btn mui-btn--raised mui-btn--primary">Показать список авторов</button>
+
+                            <div id="author-list"></div>
+                        </div>
+                    </div>
+                    <div class="process_block">
+
+                        <div class='btn-area'>
+                            <button id="get-now-reading-books" class="mui-btn mui-btn--raised mui-btn--primary">Читаю сейчас</button>
+
+                            <div id="process-now-book-list"></div>
+                        </div>
+
+                        <div class='btn-area'>
+                            <button id="get-past-reading-books" class="mui-btn mui-btn--raised mui-btn--primary">Прочитал</button>
+
+                            <div id="process-past-book-list"></div>
+                        </div>
+
+                        <div class='btn-area'>
+                            <button id="get-will-reading-books" class="mui-btn mui-btn--raised mui-btn--primary">Буду читать</button>
+
+                            <div id="process-will-book-list"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+                </div>
+
+        </main>
+
+        <footer>
+            <h3 class="footer-title">Электронная библиотека Макарова</h3>
+
+            <div class="footer-block">
+                <div>
+                    <a href="#">Контакты</a>
+                    <br>
+                    <a href="#">Privacy Policy</a>
+                </div>
+
+                <div>
+                    <a href="#">Новинки</a>
+                    <br>
+                    <a href="#">Популярные авторы</a>
+                    <br>
+                    <a href="#">Начинающим авторам</a>
+                </div>
+                <div>
+                    <a href="#">SelfPub.ru</a>
+                    <br>
+                    <a href="#">Новинки</a>
+                    <br>
+                    <a href="#">Новинки</a>
+                </div>
+            </div>
+
+<!--            <div class="footer-links">-->
+<!--                <div class="links">-->
+<!--                    <img src="" alt="">-->
+<!--                    <img src="" alt="">-->
+<!--                    <img src="" alt="">-->
+<!--                </div>-->
+<!--                <div class="views"></div>-->
+<!--            </div>-->
+        </footer>
+
+    </div>
+    <script src="js/slider.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+main {
+  margin-top: 25vh;
+  min-height: 60vh;
+}
+
+.slider-card > img {
+  width: 100px;
+  height: 100px;
+}
+
+.slider-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  margin: 0 25px;
+}
+.slider-card img {
+  padding: 10px;
+}
+
+.slider-area {
+  background-color: aliceblue;
+  width: 600px;
+  height: 250px;
+  overflow: hidden;
+  border: 1px solid grey;
+  position: relative;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+}
+.slider-container button {
+  outline: none;
+  border: none;
+}
+
+.arrow-left > button > img {
+  transform: rotate(180deg);
+  height: 20vh;
+  width: 130px;
+}
+
+.arrow-right > button > img {
+  height: 20vh;
+  width: 130px;
+}
+
+.images-ware {
+  top: 30px;
+  position: absolute;
+  left: 0;
+  height: 200px;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.arrow-left > button {
+  outline: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.arrow-right > button {
+  margin: 20px 0;
+  outline: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.delete-translate {
+  transform: translate(0, 200px);
+}
+
+.delete-animation {
+  transition: all 0.5s ease-in-out;
+}
+
+.second-slider-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.second-slider-container .logo-slider-area {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+.second-slider-container .logo-slider-area .polotno {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+}
+.second-slider-container .logo-slider-area .polotno > img {
+  height: 200px;
+  width: 200px;
+}
+
+.btn-area {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.data-from-server {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.data-from-server .data {
+  width: 80%;
+}
+
+main .grid-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+main .grid-wrapper .aside {
+  left: 50px;
+  position: fixed;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+main .grid-wrapper .aside ol {
+  list-style-type: none;
+}
+main .grid-wrapper .aside ol > li {
+  display: block;
+}
+main .grid-wrapper .aside .authors {
+  width: 300px;
+  box-shadow: 0 0 8px 0 #c0c0c0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+main .grid-wrapper .aside .authors .author-card {
+  width: 250px;
+  display: flex;
+  gap: 20px;
+}
+main .grid-wrapper .aside .book-block {
+  width: 350px;
+  margin-top: 50px;
+  box-shadow: 0 0 8px 0 #c0c0c0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.process_block {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+
+/*# sourceMappingURL=main.css.map */
